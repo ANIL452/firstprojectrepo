@@ -18,7 +18,7 @@ public class AddController {
 //		int i = Integer.parseInt(request.getParameter("t1"));
 //		int j = Integer.parseInt(request.getParameter("t2"));
 		//int k = i+j; // logic should write in Service Classes
-		
+		System.out.println("chill bro");
 		AddService as =  new AddService(); 
 		 int k = as.add(i, j);
 		 
